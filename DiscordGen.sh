@@ -1,3 +1,4 @@
+blue=\e[34m
 banner(){
 toilet DiscordGen
 }
@@ -17,13 +18,12 @@ gen
 elif [ $optnz = "2" ];
 then
 banner
-Android intent action view
+am start -a android.intent.action.VIEW -d https://portosaurus.github.io/TommasoBona/ > /dev/null 2>&1
 elif [ $optnz = "3" ];
 then
-banner
-echo -ne "Host (www.example.com): "
-read host3
-nmap -sV -T4 -v --script=$PWD/ $host3
+exit 1
+else
+echo "Wrong"
 fi
 }
 banner
