@@ -43,3 +43,4 @@ while [ $intertube -ne 1 ]; do
                 echo "Invalid token, try again :("
         fi
 done
+}
