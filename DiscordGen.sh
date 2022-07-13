@@ -1,2 +1,11 @@
+banner(){
+toilet DiscordGen
+}
+menu(){
 
-echo -e "https://discord.gift/
+
+
+
+
+token=$RANDOM | md5sum | head -c 16;
+echo -e "https://discord.gift/$token
