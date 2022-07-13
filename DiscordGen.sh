@@ -1,4 +1,4 @@
-blue=\e[34m
+blue="\e[34m"
 banner(){
 toilet DiscordGen
 }
